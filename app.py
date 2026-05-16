@@ -11,7 +11,7 @@ import cv2 # Thêm OpenCV để vẽ Grad-CAM
 # Import class ConvNet từ file của Thái
 from modules.transfer_learning import ConvNet
 
-st.set_page_config(page_title="MedMNIST v2 Classification", layout="wide")
+st.set_page_config(page_title="Chẩn đoán ảnh y tế - Nhóm 9", layout="wide")
 
 st.title("Phân loại ảnh y tế với ResNet50 + AAPSO + k-NN")
 st.markdown("📍 **Đồ án Khai thác dữ liệu - Nhóm 9**")
